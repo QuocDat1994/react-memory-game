@@ -1,0 +1,17 @@
+header {
+  width: 100%;
+  background-image: url("../../../public/img/misc/header.png");
+  background-repeat: no-repeat;
+
+  .logo {
+    max-width: 450px;
+    height: auto;
+    margin-top: 3rem;
+  }
+
+  .slogan {
+    font-family: "Caveat", cursive;
+    margin-top: -1rem;
+    font-size: 3rem;
+  }
+}

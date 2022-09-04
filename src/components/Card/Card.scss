@@ -1,0 +1,76 @@
+.card {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+
+  &.flipped {
+    .front {
+      transform: rotateY(0deg);
+      transition-delay: 0.2s;
+    }
+    .back {
+      transform: rotateY(90deg);
+      transition-delay: 0s;
+    }
+  }
+
+  .front,
+  .back {
+    border: 4px solid #3cc8dc;
+    border-radius: 6px;
+  }
+
+  .front {
+    position: absolute;
+    transform: rotateY(90deg);
+    width: 100%;
+    height: auto;
+    padding: 24.5% 20%;
+    transition: all ease 0.2s;
+    background: white;
+  }
+
+  .back {
+    width: 100%;
+    height: 100%;
+    padding: 30%;
+    transform: rotateY(0deg);
+    transition: all ease 0.2s;
+    transition-delay: 0.2s;
+    background: #d7f5fa;
+    opacity: 0.9;
+  }
+
+  &.matched {
+    .sparkle {
+      animation: sparkle 1s;
+    }
+  }
+
+  .sparkle {
+    position: absolute;
+    width: 20%;
+    z-index: 1;
+    top: -1rem;
+    left: -1rem;
+    opacity: 0;
+    transition: all ease 0.3s;
+  }
+}
+
+@keyframes sparkle {
+  0% {
+    top: 1rem;
+    left: 1rem;
+    opacity: 0;
+  }
+  50% {
+    top: -1rem;
+    left: -1rem;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
