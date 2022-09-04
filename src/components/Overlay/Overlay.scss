@@ -1,0 +1,26 @@
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  display: grid;
+  place-items: center;
+
+  .congrats {
+    background-color: #d7f5fa;
+    border: 4px solid #3cc8dc;
+    border-radius: 10px;
+
+    p {
+      font-family: "Caveat", cursive;
+      font-size: 10rem;
+    }
+  }
+
+  button {
+    &:first-child {
+      margin-right: 5rem;
+    }
+  }
+}
