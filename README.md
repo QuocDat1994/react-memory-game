@@ -4,6 +4,10 @@ Pokemon Memory Game - A React project
 
 Just a simple memory game with Pokemon theme. Made with ♥ by a Pokemon fan and for Pokemon fan.
 
+Credit: 
+- Pokemon company of course!
+- spriters-resource.com for the ripped spriter.
+
 Demo: http://pokemon.quocdat1994.surge.sh/
 
 ![preview](https://i.ibb.co/3pDPHS0/pokemon.png)
