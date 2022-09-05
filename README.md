@@ -6,7 +6,7 @@ Just a simple memory game with Pokemon theme. Made with ♥ by a Pokemon fan and
 
 Credit: 
 - Pokemon company of course!
-- spriters-resource.com for the ripped spriter.
+- spriters-resource.com for the ripped sprites.
 
 Demo: http://pokemon.quocdat1994.surge.sh/
 
